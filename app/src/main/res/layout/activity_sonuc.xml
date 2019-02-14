@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Sonuc">
+
+    <ImageView
+        android:id="@+id/profilePic"
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
+
+    <EditText
+
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/ad_soyad" />
+
+    <TextView
+        android:id="@+id/numara1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/numara"
+        />
+
+    <EditText
+        android:id="@+id/sinif1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/sinif" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artı Sayısı  =  "
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/arti1"
+
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            />
+
+        <Button
+            android:id="@+id/decArti"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/incArti"
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eksi Sayısı =  "
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/eksi1"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            />
+
+        <Button
+            android:id="@+id/decEksi"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/incEksi"
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="106dp">
+
+        <Button
+            android:id="@+id/kaydet1"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:text="güncelle" />
+
+        <Button
+            android:id="@+id/anasayfa"
+
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:text="@string/geri" />
+    </LinearLayout>
+
+
+</LinearLayout>

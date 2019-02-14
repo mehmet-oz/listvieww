@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Kişisel Bilgiler</string>
+    <string name="ad_soyad">Ad Soyad</string>
+    <string name="sinif">Sınıf</string>
+    <string name="numara">Numara</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="sil">Sil</string>
+    <string name="getir">Getir</string>
+    <string name="aciklama">Açıklama</string>
+    <string name="title_activity_sonuc">Sonuc</string>
+    <string name="anasayfa">Anasayfa</string>
+    <string name="geri">geri</string>
+
+</resources>
