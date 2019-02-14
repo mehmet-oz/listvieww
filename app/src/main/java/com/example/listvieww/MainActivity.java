@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     Context c;
     List<String> ogrenciler;
     MyDataBase mdb;
+    //gelecek mi?
 
 
     @Override
